@@ -14,8 +14,6 @@
   "scripts": { "prepublish": "npm prune", "pretest": "npm update", "test": "mocha -R spec" },
   "devDependencies": { "mocha": "~1.7.3", "should": "~1.2.1" },
   "dependencies": {
-    "up": "~0",
-    "up-hook": "~0",
     "express": "~3"
   }
 }
