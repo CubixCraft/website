@@ -1,0 +1,21 @@
+{
+  "name": "website",
+  "description": "CubixCraft.de Website",
+  "version": "1.0.0",
+  "author": "Jan Buschtöns <buschtoens@gmail.com>",
+  "contributors": [ 
+    { "name": "Jan Buschtöns", "email": "buschtoens@gmail.com", "url": "https://github.com/silvinci" }
+  ],
+  "license": "MIT",
+  "keywords": ["private", "example"],
+  "repository": "git://github.com/CubixCraft/website",
+  "main": "index",
+  "engines": { "node": "*" },
+  "scripts": { "prepublish": "npm prune", "pretest": "npm update", "test": "mocha -R spec" },
+  "devDependencies": { "mocha": "~1.7.3", "should": "~1.2.1" },
+  "dependencies": {
+    "up": "~0",
+    "up-hook": "~0",
+    "express": "~3"
+  }
+}
