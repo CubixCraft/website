@@ -2,7 +2,7 @@
 update: dependencies git
 
 git:
-	git reset --hard master
+	git reset --hard origin/master
 
 dependencies:
 	npm update
