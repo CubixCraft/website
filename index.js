@@ -1,4 +1,4 @@
 module.exports = require("http").createServer(function(req, res) {
-  res.write(req.url);
+  res.write("LOL it works! " + req.url);
   res.end();
 });
