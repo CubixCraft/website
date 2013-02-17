@@ -14,8 +14,9 @@
   "main": "index",
   "scripts": {
   	"prepublish": "npm prune",
-  	"pretest": "npm update",
-  	"test": "mocha -R spec"
+  	"pretest": "make dependencies",
+  	"test": "mocha -R spec",
+  	"start": "node standalone"
   },
   "devDependencies": {
   	"mocha": "~1.7.3",
