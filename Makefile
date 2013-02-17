@@ -1,5 +1,5 @@
 
-update: dependencies git
+update: git dependencies
 
 git:
 	git pull --rebase
